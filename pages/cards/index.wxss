@@ -1,0 +1,21 @@
+/* pages/cards/index.wxss */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+.pic {
+  width: 400rpx;
+  height: 400rpx;
+  border: 1rpx solid #ccc;
+  /* wxss 不支持本地资源（图片、字体） */
+  /* 只支持网络图片(http:// https://) 或者 base64 */
+  /* background-image: url(../../static/images/blank.png); */
+  background-image: url(https://yangbiubiu.github.io/82--/images/blank.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+  

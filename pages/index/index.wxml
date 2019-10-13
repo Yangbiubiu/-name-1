@@ -1,0 +1,104 @@
+<!--index.wxml-->
+<!-- 小程序中也有类似网页中的标签，但是并不一致！！！ -->
+
+<!--
+ wxml 中单标签必须要自闭合！！！ 
+
+<navigator url="../cards/"> 相当于a链接</navigator>
+
+<navigator url="../cards/index">相当于a链接 </navigator>
+ -->
+<!-- 轮播图 -->
+<swiper indicator-dots indicator-color="rgba(255, 255, 255, 0.6)" indicator-active-color="#fff" autoplay interval="3000" circular>
+  <swiper-item>
+    <image src="https://yangbiubiu.github.io/82--/uploads/slide_1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://yangbiubiu.github.io/82--/uploads/slide_2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://yangbiubiu.github.io/82--/uploads/slide_3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://yangbiubiu.github.io/82--/uploads/slide_4.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://yangbiubiu.github.io/82--/uploads/slide_5.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<!-- 活动标题 -->
+<view class="title">乐园活动</view>
+<!-- 活动列表 -->
+<view class="item">
+  <!-- 活动封页 -->
+  <navigator>
+    <image src="https://yangbiubiu.github.io/82--/uploads/item_1.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- 活动封页 -->
+  <navigator>
+    <image src="https://yangbiubiu.github.io/82--/uploads/item_2.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- 活动封页 -->
+  <navigator>
+    <image src="https://yangbiubiu.github.io/82--/uploads/item_3.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- 活动封页 -->
+  <navigator>
+    <image src="https://yangbiubiu.github.io/82--/uploads/item_4.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <text class="status">免费</text>
+  </view>
+</view>
